@@ -1,0 +1,24 @@
+{
+    "name": "developeruz/yii2-short-code",
+    "description": "Using a short code in your project based on Yii2.",
+    "keywords": ["yii2", "extension", "widget", "tinymce", "highlight", "behavior"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Elvira Sheina",
+            "email": "elleuz@gmail.com",
+            "homepage": "http://developer.uz"
+        }
+    ],
+    "require" : {
+        "yiisoft/yii2": "*",
+        "developeruz/yii2-tinymce-widget" : "*",
+        "components/highlightjs": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "developeruz\\shortcode\\": ""
+        }
+    }
+}
